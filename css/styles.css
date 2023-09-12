@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/**
+ * @author Sarah Al Mahsani
+ *
+ * TABLE DES MATIERES
+ * Normalize
+ * Utilitaires
+ * Charte typographique
+ * Grille
+ * Mise en page
+ *** Contenus principal et complémentaire
+ *** Architecture des CSS (liste de définitions)
+ *** Pied de page
+ */
+
+/* Normalize
+   ========================================================================== */
+   @import url(normalize.css);
+
+   /* Utilitaires
+      ========================================================================== */
+   @import url(utilitaires.css);
+   
+   /* Charte typographique
+      ========================================================================== */
+   @import url(typo.css);
+   
+   /* Grille
+      ========================================================================== */
+   @import url(grille.css);
+   
+header .h1, h2{
+    margin-top: 0;
+}
+
+/*Navigation*/
+
+.nav, .nav_ul{
+    margin-top: 1em;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+.nav_ul{
+    position: fixed;
+    border-radius: 25px;
+    background: #e8e5e480;
+    box-sizing: border-box;
+    width: 20%;
+    backdrop-filter: blur(16px);
+    opacity: 1;
+}
+
+.nav_item{
+    padding: 1em;
+    margin: 0 15px 0 15px;
+    font-size: smaller;
+    width: fit-content;
+}
+
+.nav_item:link, .nav_item:active{
+    border-radius: 25px;
+    background: white;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+/*Contenu*/
+
+main {
+    margin-top: 12em;
+}
+
+.option_ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    margin-bottom: 7em;
+    margin-top: 3em;
+}
+
+.option_item{
+    padding: 0.2em 1em 0.2em 1em;
+    font-size: smaller;
+    width: fit-content;
+    text-align: center;
+}
+.option_item:nth-child(2), .option_item:nth-child(3), .option_item:nth-child(4){
+    border-radius: 25px;
+    margin: 0 5px 0 5px;
+    width: auto;
+    text-align: center;
+    background: #e8e5e480;
+}
+
+h1, .p, p {
+    text-align: center;
+    line-height: 30px; 
+    margin: 0;
+}
+
+@media (min-width: 600px) {
+    h1, .p, p { 
+        line-height: 60px;
+    }
+}
+@media (min-width: 800px) {
+    h1, .p, p { 
+        line-height: 80px;
+    }
+}
+
+.h2, h2{
+    margin-top: 5em;
+}
+
+.h2, h2 p{
+    line-height: 40px;
+}
+
+h2 a {
+    color: #7f7f7f;
+}
+
+h2 a:hover{
+    color: #7f7f7f9d;
+}
+

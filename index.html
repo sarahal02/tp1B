@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OH.STUDIO</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <nav class="menu">
-            <ul>
-                <li>
-                   <a href=""> Home</a>
+        <nav class="nav">
+            <ul class="nav_ul">
+                <li class="nav_item">
+                   <a href="index.html"> Home</a>
                 </li>
     
-                <li>
+                <li class="nav_item">
                     <a href="">Profile</a>
                 </li>
     
-                <li>
+                <li class="nav_item">
                     <a href="">Contact</a>
                 </li>
             </ul>
@@ -25,70 +26,112 @@
     </header>
 
     <main>
-        <h1>
-            A brand and product designer working with clients globally
+        <h1 class="h1">
+            <p class="p">A brand and product</p> 
+            <p class="p">designer working with</p>
+            <p class="p">clients globally</p>
         </h1>
         
-        <ul>
-            <li>
-                <a href="">Expertise</a>
+        <ul class="option_ul">
+            <li class="option_item">
+                Expertise
             </li>
     
-            <li>
-                <a href="">Branding</a>
+            <li class="option_item">
+                Branding
             </li>
     
-            <li>
-                <a href="">Product</a>
+            <li class="option_item">
+                Product
             </li>
     
-            <li>
-                <a href="">Design Systems</a>
+            <li class="option_item">
+                Design Systems
             </li>
         </ul>
 
-        <div class=”gallery”>
-            <figure class=”gallery__item gallery__item--1">
-              <a href="">
-                <img src="" width="585" height="447" class="gallery__img" alt="">
-                </a>
-             
-            </figure>
+        <div class="gallery">
+            <div class="gallery_column">
+                <figure class="gallery__item gallery__item--1">
+                  <a href="">
+                    <img src="images/image1.jpg" class="gallery__img" alt="">
+                    </a>
+                 
+                </figure>
+    
+                <figure class="gallery__item gallery__item--2">
+                  <a href="">
+                    <img src="images/image2.jpg" class="gallery__img" alt="">
+                    </a>
+                 
+                </figure>
+    
+                <figure class="gallery__item gallery__item--3">
+                 <a href="">
+                    <img src="images/image3.jpg" class="gallery__img" alt="">
+                    </a>
+                </figure>
+    
+                <figure class="gallery__item gallery__item--4">
+                  <a href="">
+                    <img src="images/image4.jpg" class="gallery__img" alt="">
+                    </a>
+                 
+                </figure>
+    
+                <figure class="gallery__item gallery__item--5">
+                  <a href="">
+                    <img src="images/image5.jpg" class="gallery__img" alt="">
+                    </a>
+                </figure>
+    
+                <figure class="gallery__item gallery__item--6">
+                  <a href="">
+                    <img src="images/image6.jpg" class="gallery__img" alt="">
+                    </a>
+                </figure>
+            </div>
 
-            <figure class="gallery__item gallery__item--2">
-              <a href="">
-                <img src="" width="585" height="447" class="gallery__img" alt="">
+            <div class="gallery_column">
+                <figure class="gallery__item gallery__item--7">
+                    <a href="">
+                      <img src="images/image7.jpg" class="gallery__img" alt="">
+                      </a>
+                  </figure>
+    
+                  <figure class="gallery__item gallery__item--8">
+                    <a href="">
+                      <img src="images/image8.jpg" class="gallery__img" alt="">
+                      </a>
+                  </figure>
+    
+                  <figure class="gallery__item gallery__item--9">
+                    <a href="">
+                      <img src="images/image9.jpg" class="gallery__img" alt="">
+                      </a>
+                  </figure>
+    
+                <a href="">
+                    <video autoplay muted loop class="gallery__item gallery__item--10 gallery__video">
+                        <source src="videos/NYCB.mp4" type="video/mp4" />
+                    </video>
                 </a>
-             
-            </figure>
-
-            <figure class="gallery__item gallery__item--3">
-             <a href="">
-                <img src="" width="585" height="447" class="gallery__img" alt="">
+    
+                <a href="">
+                    <video autoplay muted loop width="585px" height="447px" class="gallery__item gallery__item--11 gallery__video">
+                        <source src="videos/propeller.mp4" type="video/mp4" />
+                    </video>
                 </a>
-            </figure>
-
-            <figure class="gallery__item gallery__item--4">
-              <a href="">
-                <img src="" width="585" height="447" class="gallery__img" alt="">
+    
+                <a href="">
+                    <video autoplay muted loop class="gallery__item gallery__item--12 gallery__video">
+                        <source src="videos/oh-supply.mp4" type="video/mp4" />
+                    </video>
                 </a>
-             
-            </figure>
-
-            <figure class="gallery__item gallery__item--5">
-              <a href="">
-                <img src="" width="585" height="447" class="gallery__img" alt="">
-                </a>
-            </figure>
-
-            <figure class="gallery__item gallery__item--6">
-              <a href="">
-                <img src="" width="585" height="447" class="gallery__img" alt="">
-                </a>
-            </figure>
+            </div>
           </div>
 
-          <h2>
+          <h2 class="h2">
             <p>Let's work together.</p>
             
             <p>
@@ -108,6 +151,20 @@
             <img src="" class="footer__icon" alt="icon">
             <p>© Oli Harris 2023</p>
         </figure>
+
+        <div>
+            <a href="">
+                Twitter
+            </a>
+
+            <a href="">
+                Linkedin
+            </a>
+
+            <a href="">
+                Mail
+            </a>
+        </div>
     </footer>
 
     
