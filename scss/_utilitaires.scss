@@ -2,12 +2,11 @@
    ========================================================================== */
 
 /****** Variables (peuvent être utilisées dans tous les fichiers) *******/
-$couleurTexte : #022b50;
-$couleurTitres : darkmagenta;
-$couleurDominante : darkmagenta;
-$couleurSecondaire : #418cff;
-$couleurContraste : #efefef;
-$boxShadow : 5px 5px 5px;
+$couleurTexte : black;
+$couleurNavSelectionne: white;
+$couleurPrincipale : #e8e5e480;
+$couleurH2 : #7f7f7f;
+$couleurH2survol : #7f7f7f9d;
 
 /*** Clearfix ***/
 @mixin clearfix {
